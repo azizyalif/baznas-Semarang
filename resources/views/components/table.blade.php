@@ -77,7 +77,7 @@
                 <td class="px-6 py-4 whitespace-nowrap">
                     @if(auth()->check() && auth()->user()->role === 'super_admin')
                     <a href="{{route('proposal/edit', $value->id)}}" style="background-color: blue;" class="text-white font-bold py-1 px-2 rounded text-xs">Edit</a>
-                    @if($value->dibantu != 2)
+                    @if($value->dibantu != 1)
                         <a href="{{route('proposal/proses', $value->id)}}" style="background-color: yellow;" class="text-white font-bold py-1 px-2 rounded text-xs">Proses</a>
                     @endif
                     @endif

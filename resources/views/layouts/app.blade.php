@@ -58,7 +58,9 @@
             <main class="grow">
                 {{ $slot }}
             </main>
+
         <x-app.footer />
+        
         </div>
         
     </div>

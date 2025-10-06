@@ -167,8 +167,8 @@
         </div>
         </form>
     </div>
-    </div>
-
+    
+</x-app-layout>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
 
@@ -253,4 +253,3 @@
     </script>
 
 
-</x-app-layout>
